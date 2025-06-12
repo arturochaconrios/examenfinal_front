@@ -29,6 +29,9 @@ function Header({ onNavigate }) {
             <Button color="inherit" onClick={() => onNavigate("proveedores")}>
               Buscar Proveedor
             </Button>
+            <Button color="inherit" onClick={() => onNavigate("detalleLicitacion")}>
+              Ver Detalle Licitación
+            </Button>
           </Box>
         </Toolbar>
       </Container>
